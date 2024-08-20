@@ -104,17 +104,26 @@ const Main = () => {
                     <p className="section-text">
                         At Beacon Export, we specialize in high-quality agricultural exports from India. Our mission is to bridge the gap between India’s rich agricultural heritage and the global market by providing premium-quality millets and guar gum. With a commitment to sustainability, excellence, and ethical practices, we ensure that every product we export meets the highest standards of quality and freshness.
                     </p>
+
+                    {/* Mission Subsection */}
+                    <h3 className="subsection-title">Our Mission</h3>
                     <p className="section-text">
-                        We have a deep understanding of the agricultural landscape in India, leveraging local expertise and advanced technology to source the best products. Our team is dedicated to maintaining the integrity of our products from the field to your table, ensuring that they are processed, packaged, and delivered with the utmost care.
+                        Our mission is to empower local farmers by connecting them to international markets, fostering economic growth, and promoting sustainable agricultural practices. We aim to bring the rich bounty of India’s farmlands to global consumers while ensuring fair trade practices and environmental responsibility at every step of the way.
                     </p>
+
+                    {/* Why Choose Us Subsection */}
+                    <h3 className="subsection-title">Why Choose Us</h3>
+                    <p className="section-text">
+                        With Beacon Export, you are partnering with a company that values integrity, quality, and sustainability. We pride ourselves on our rigorous quality control processes, timely delivery, and our ability to offer products that meet the unique needs of our global clients.
+                    </p>
+
+
                     <h3 className="subsection-title">Partner with Beacon Export:</h3>
                     <p className="section-text">
                         Whether you are a retailer, distributor, or manufacturer, partnering with Beacon Export means gaining access to top-quality agricultural products and a reliable supply chain. Contact us today to learn more about our offerings and how we can help meet your needs.
                     </p>
                 </div>
             </section>
-
-
 
             <section className="contact" id="contact">
                 <div className="container">
@@ -131,13 +140,13 @@ const Main = () => {
                     <div className="footer-info">
                         <div className="contact-info">
                             <h3>Varun Pratap Singh</h3>
-                            <p><strong>Director</strong></p>
+                            <p><strong></strong></p>
                             <p>Email: <a href="mailto:info@beaconexport.com">info@beaconexport.com</a></p>
                             <p>Phone: <a href="tel:+14033608483">+1 (403) 360-8483</a></p>
                         </div>
                         <div className="contact-info">
                             <h3>Madhav Tutlani</h3>
-                            <p><strong>President</strong></p>
+                            <p><strong></strong></p>
                             <p>Email: <a href="mailto:info@beaconexport.com">info@beaconexport.com</a></p>
                             <p>Phone: <a href="tel:+15144302864">+1 (514) 430-2864</a></p>
                         </div>
