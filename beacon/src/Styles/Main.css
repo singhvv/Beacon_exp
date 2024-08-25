@@ -16,6 +16,11 @@ html {
     z-index: 1000; /* Ensure it is above other content */
 }
 
+.navbar-brand-container {
+    display: flex;
+    align-items: center;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -31,9 +36,9 @@ html {
 }
 
 .logo {
-    height: 55px; /* Adjust as needed */
+    height: 55px;
     width: auto;
-    margin-right: 20px; /* Space between logo and navigation links */
+    margin-right: 20px;
     border-radius: 60%;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -41,6 +46,21 @@ html {
 .logo:hover {
     box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.6);
     transform: scale(1.1);
+}
+
+.linkedin-icon {
+    height: 40px;
+    width: auto;
+    margin-left: 15px;
+    transition: transform 0.3s ease;
+    position: relative;
+    top: 7px;
+    right: 5px;
+}
+
+.linkedin-icon:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
 }
 
 .navbar-links {
@@ -280,6 +300,7 @@ html {
         font-size: 1em;
     }
 }
+
 /* About Us Section Styles */
 .about {
     background-color: #f9f9f9; /* Light gray background for contrast */
@@ -299,20 +320,13 @@ html {
     line-height: 1.6; /* Improve line spacing for readability */
     margin: 0 auto; /* Center align the paragraph block */
     max-width: 800px; /* Limit the width of the text block */
-    text-align: left; /* Align text to the left within the block */
+    text-align: justify; /* Make text justified */
 }
 
-@media (max-width: 768px) {
-    .about {
-        padding: 40px 15px; /* Adjust padding for smaller screens */
-    }
-
-    .about h2 {
-        font-size: 2em; /* Adjust font size for smaller screens */
-    }
-
-    .about p {
-        font-size: 1em; /* Adjust font size for smaller screens */
-        max-width: 90%; /* Increase max-width for better fit on smaller screens */
-    }
+.about img {
+    margin-top: 40px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../Styles/Main.css';
 
 // Import images directly
@@ -13,7 +13,8 @@ import guar1 from '../Assets/Guar1.jpg';
 import guar2 from '../Assets/Guar2.jpg';
 import guar3 from '../Assets/Guar3.jpg';
 import guar4 from '../Assets/Guar4.jpg';
-import logo from '../Assets/Beacon.png'; // Import your logo image
+import logo from '../Assets/Beacon.png';
+import linkedinIcon from '../Assets/linkedin.png';
 
 const scrollToSection = (event, selector) => {
     event.preventDefault();
@@ -27,6 +28,8 @@ const scrollToSection = (event, selector) => {
 };
 
 const Main = () => {
+    const [menuActive, setMenuActive] = useState(false);
+
     useEffect(() => {
         const links = document.querySelectorAll('.navbar-links a');
         links.forEach(link => {
@@ -44,18 +47,32 @@ const Main = () => {
         };
     }, []);
 
+    const toggleMenu = () => {
+        setMenuActive(!menuActive);
+    };
+
     return (
         <main className="main">
             <header className="header">
                 <div className="container">
                     <nav className="navbar">
-                        <a href="#home" className="navbar-brand">
-                            <img src={logo} alt="Beacon Export Logo" className="logo" />
-                        </a>
-                        <div className="navbar-links">
+                        <div className="navbar-brand-container">
+                            <a href="#home" className="navbar-brand">
+                                <img src={logo} alt="Beacon Export Logo" className="logo" />
+                            </a>
+                            <a href="https://www.linkedin.com/company/beacon-export" target="_blank" rel="noopener noreferrer">
+                                <img src={linkedinIcon} alt="LinkedIn Icon" className="linkedin-icon" />
+                            </a>
+                        </div>
+                        <div className={`navbar-links ${menuActive ? 'active' : ''}`}>
                             <a href="#about">About Us</a>
                             <a href="#products">Our Products</a>
                             <a href="#contact">Contact Us</a>
+                        </div>
+                        <div className="hamburger" onClick={toggleMenu}>
+                            <div></div>
+                            <div></div>
+                            <div></div>
                         </div>
                     </nav>
                 </div>
@@ -117,7 +134,6 @@ const Main = () => {
                         With Beacon Export, you are partnering with a company that values integrity, quality, and sustainability. We pride ourselves on our rigorous quality control processes, timely delivery, and our ability to offer products that meet the unique needs of our global clients.
                     </p>
 
-
                     <h3 className="subsection-title">Partner with Beacon Export:</h3>
                     <p className="section-text">
                         Whether you are a retailer, distributor, or manufacturer, partnering with Beacon Export means gaining access to top-quality agricultural products and a reliable supply chain. Contact us today to learn more about our offerings and how we can help meet your needs.
@@ -140,13 +156,11 @@ const Main = () => {
                     <div className="footer-info">
                         <div className="contact-info">
                             <h3>Varun Pratap Singh</h3>
-                            <p><strong></strong></p>
                             <p>Email: <a href="mailto:info@beaconexport.com">info@beaconexport.com</a></p>
                             <p>Phone: <a href="tel:+14033608483">+1 (403) 360-8483</a></p>
                         </div>
                         <div className="contact-info">
                             <h3>Madhav Tutlani</h3>
-                            <p><strong></strong></p>
                             <p>Email: <a href="mailto:info@beaconexport.com">info@beaconexport.com</a></p>
                             <p>Phone: <a href="tel:+15144302864">+1 (514) 430-2864</a></p>
                         </div>
