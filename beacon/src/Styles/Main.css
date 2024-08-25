@@ -271,16 +271,51 @@ html {
     font-size: 0.9em;
 }
 
+/* Hamburger Menu Styles */
+.hamburger {
+    display: none; /* Hide by default on larger screens */
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 100%;
+    height: 3px;
+    background-color: white;
+    transition: all 0.3s ease;
+}
+
+/* Active Menu Styles */
+.navbar-links.active {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background-color: #000080;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .navbar-links {
         flex-direction: column;
         align-items: center;
+        display: none;
     }
     
     .navbar-links a {
-        padding: 10px;
+        padding: 10px 0;
         font-size: 1em;
+        text-align: center;
+    }
+
+    .hamburger {
+        display: flex; /* Show hamburger on smaller screens */
     }
 
     .carousel-item {
