@@ -15,6 +15,63 @@ import guar3 from '../Assets/Guar3.jpg';
 import guar4 from '../Assets/Guar4.jpg';
 import logo from '../Assets/Beacon.png';
 import linkedinIcon from '../Assets/linkedin.png';
+import container from '../Assets/container.jpg';
+import Aloe1 from '../Assets/Aloe1.jpg';
+import Aloe2 from '../Assets/Aloe2.jpg';
+import Aloe3 from '../Assets/Aloe3.jpg';
+import Aloe4 from '../Assets/Aloe4.jpg';
+import Saffron1 from '../Assets/Saffron1.jpg';
+import Saffron2 from '../Assets/Saffron2.jpg';
+import Saffron3 from '../Assets/Saffron3.jpg';
+import Saffron4 from '../Assets/Saffron4.jpg';
+import Coco1 from '../Assets/Coco1.jpg';
+import Coco2 from '../Assets/Coco2.jpg';
+import Coco3 from '../Assets/Coco3.jpg';
+import Coco4 from '../Assets/Coco4.jpg';
+import Jo1 from '../Assets/Jo1.jpg';
+import Jo2 from '../Assets/Jo2.jpg';
+import Jo3 from '../Assets/Jo3.jpg';
+import Jo4 from '../Assets/Jo4.jpg';
+import Cas1 from '../Assets/Cas1.jpg';
+import Cas2 from '../Assets/Cas2.jpg';
+import Cas3 from '../Assets/Cas3.jpg';
+import Cas4 from '../Assets/Cas4.jpg';
+import Tur1 from '../Assets/Tur1.jpg';
+import Tur2 from '../Assets/Tur2.jpg';
+import Tur3 from '../Assets/Tur3.jpg';
+import Tur4 from '../Assets/Tur4.jpg';
+import San1 from '../Assets/San1.jpg';
+import San2 from '../Assets/San2.jpg';
+import San3 from '../Assets/San3.jpg';
+import San4 from '../Assets/San4.jpg';
+
+
+const Slideshow = ({ images }) => {
+    const [currentIndex, setCurrentIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+        }, 5000); // Change slide every 5 seconds
+
+        return () => clearInterval(interval);
+    }, [images.length]);
+
+    return (
+        <div className="product-slideshow">
+            {images.map((src, index) => (
+                <img
+                    key={index}
+                    src={src}
+                    alt={`Slide ${index + 1}`}
+                    className={`slideshow-image ${index === currentIndex ? 'active' : ''}`}
+                    style={{ opacity: index === currentIndex ? 1 : 0 }}
+                />
+            ))}
+        </div>
+    );
+};
+
 
 const scrollToSection = (event, selector) => {
     event.preventDefault();
@@ -51,6 +108,8 @@ const Main = () => {
         setMenuActive(!menuActive);
     };
 
+    
+    
     return (
         <main className="main">
             <header className="header">
@@ -60,9 +119,7 @@ const Main = () => {
                             <a href="#home" className="navbar-brand">
                                 <img src={logo} alt="Beacon Export Logo" className="logo" />
                             </a>
-                            <a href="https://www.linkedin.com/company/beacon-export" target="_blank" rel="noopener noreferrer">
-                                <img src={linkedinIcon} alt="LinkedIn Icon" className="linkedin-icon" />
-                            </a>
+                                <a href="#home" className='logo-text'> Beacon Export </a>
                         </div>
                         <div className={`navbar-links ${menuActive ? 'active' : ''}`}>
                             <a href="#about">About Us</a>
@@ -85,61 +142,170 @@ const Main = () => {
                     <a href="#contact" className="hero-button">Get in Touch</a>
                 </div>
             </section>
-            
+
+            <section className="split-section">
+                <div className="split-container">
+                    {/* Left Half: Text Box */}
+                    <div className="split-left">
+                        <div className="text-box">
+                            <h3 className="box-heading">Empowering Global Trade</h3>
+                            <div className="divider"></div>
+                            <p className="box-body">
+                                At Beacon Export, we believe in bridging the gap between India's finest agriculture and the global market. Our commitment to quality, sustainability, and fair trade practices ensures that we deliver only the best products.
+                            </p>
+                        </div>
+                    </div>
+                    {/* Right Half: Image */}
+                    <div className="split-right">
+                        <img src={container} alt="Container Shipping" className="split-image" />
+                    </div>
+                </div>
+            </section>
+
+
+
+
             <section className="products" id="products">
                 <div className="container">
-                    <h2 className="section-title">Our Products: Millets</h2>
-                    <div className="carousel-container">
-                        <div className="carousel">
-                            {[millet1, millet2, millet3, millet4, millet5, millet6].map((src, index) => (
-                                <div key={index} className="carousel-item">
-                                    <img src={src} alt={`Millet ${index + 1}`} />
-                                    <p></p>
-                                </div>
-                            ))}
+                    <h2 className="section-title">Our Products</h2>
+                
+                    {/* Millets Section */}
+                    <div className="product-item">
+                        <div className="product-text">
+                            <h3>Millets</h3>
+                            <p>
+                            At Beacon Export, we take pride in offering a diverse range of high-quality millets, including Pearl Millet, Finger Millet, and Foxtail Millet. Our products include whole grains, nutritious flour, and premium seeds, catering to both culinary and agricultural needs. Sourced directly from sustainable farms in India, our millets are rich in essential nutrients, fiber, and antioxidants, making them an excellent choice for health-conscious consumers. Whether you’re a retailer looking to expand your product line or a food manufacturer seeking wholesome ingredients, our millets provide the versatility and quality needed to meet the demands of today’s market.
+                            </p>
+                        </div>
+                        <Slideshow images={[millet1, millet2, millet3, millet4, millet5, millet6]} />
+                    </div>
+                
+                    {/* Guar Gum Section */}
+                    <div className="product-item product-reverse">
+                        <Slideshow images={[guar1, guar2, guar3, guar4]} />
+                        <div className="product-text">
+                            <h3>Guar Gum</h3>
+                            <p>
+                                We offer top-quality Guar Gum, a natural thickening and stabilizing agent derived from the seeds of the guar plant. Our guar gum is sourced from trusted farms in India and is available in various grades, suitable for a wide range of applications, including food, pharmaceuticals, and cosmetics. Known for its exceptional viscosity and binding properties, our guar gum enhances the texture and shelf life of food products, making it an essential ingredient in sauces, dairy products, and baked goods. With our commitment to quality and sustainability, we ensure that our guar gum meets the highest standards for purity and performance.
+                            </p>
                         </div>
                     </div>
-                </div>
-                <div className="container">
-                    <h2 className="section-title">Our Products: Guar Gum</h2>
-                    <div className="carousel-container">
-                        <div className="carousel">
-                            {[guar1, guar2, guar3, guar4].map((src, index) => (
-                                <div key={index} className="carousel-item">
-                                    <img src={src} alt={`Guar Gum ${index + 1}`} />
-                                    <p></p>
-                                </div>
-                            ))}
+
+                    {/* Aloe Vera Section */}
+                    <div className="product-item">
+                        <div className="product-text">
+                            <h3>Aloe Vera</h3>
+                            <p>
+                                We provide premium Aloe Vera products, renowned for their numerous health benefits. Sourced from the best farms in India, our Aloe Vera is available in various forms, including pure gel, powder, and juice. Known for its soothing and moisturizing properties, Aloe Vera is widely used in the beauty, health, and wellness industries. Our products are rich in vitamins, minerals, and antioxidants, making them ideal for skincare, haircare, and dietary supplements. Committed to sustainability and quality, we ensure our Aloe Vera products are processed with care to retain their natural properties and efficacy, meeting the highest industry standards.
+                            </p>
+                        </div>
+                        <Slideshow images={[Aloe1, Aloe2, Aloe3, Aloe4]} />
+                    </div>
+                
+                    {/* Saffron Section */}
+                    <div className="product-item product-reverse">
+                        <Slideshow images={[Saffron1, Saffron2, Saffron3, Saffron4]} />
+                        <div className="product-text">
+                            <h3>Saffron</h3>
+                            <p>
+                                We take great pride in offering one of India's most exotic products, Saffron, renowned for its exquisite flavor and vibrant hue. Sourced from the lush fields of Kashmir, our Saffron is meticulously hand-harvested, capturing the essence of this luxurious spice. With its rich aroma, Saffron elevates everything from traditional dishes to modern culinary creations. Beyond its culinary appeal, this golden treasure is celebrated for its potential health benefits, making it a favorite in the wellness community. Our commitment to quality and sustainability ensures that each strand reflects the dedication of our farmers, providing you with the finest Saffron straight from the heart of India.
+                            </p>
                         </div>
                     </div>
+
+                    {/* Coconut Oil Section */}
+                    <div className="product-item">
+                        <div className="product-text">
+                            <h3>Coconut Oil</h3>
+                            <p>
+                                Our Coconut Oil is a staple in every kitchen, known for its versatility and health benefits. Sourced from the sun-kissed coasts of India, our organic coconut oil is cold-pressed to retain its rich flavor and nutrients. Whether you're cooking, baking, or using it as a natural beauty remedy, this oil adds a touch of tropical goodness to your daily routine. It’s perfect for sautéing vegetables, adding moisture to skin and hair, or even as an ingredient in your favorite DIY treatments. At Beacon Export, we are committed to quality and sustainability, ensuring that every jar reflects our dedication to nature and wellness.
+                            </p>
+                        </div>
+                        <Slideshow images={[Coco1, Coco2, Coco3, Coco4]} />
+                    </div>
+                
+                    {/* Jojoba Oil Section */}
+                    <div className="product-item product-reverse">
+                        <Slideshow images={[Jo1, Jo2, Jo3, Jo4]} />
+                        <div className="product-text">
+                            <h3>Jojoba Oil</h3>
+                            <p>
+                                Our Jojoba Oil is a natural treasure, meticulously extracted from the seeds of the jojoba plant, which thrives in the arid landscapes of India. Renowned for its moisturizing properties, this oil closely resembles the natural oils produced by our skin, making it an ideal choice for skincare and haircare. It absorbs easily without clogging pores, providing hydration while promoting a healthy glow. Whether used as a nourishing facial oil, a soothing massage oil, or a conditioner for your hair, our high-quality jojoba oil is versatile and effective. At Beacon Export, we prioritize purity and sustainability, ensuring you receive the best nature has to offer.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Castor Oil Section */}
+                    <div className="product-item">
+                        <div className="product-text">
+                            <h3>Castor Oil</h3>
+                            <p>
+                                Our Castor Oil is a natural powerhouse derived from the seeds of the castor bean plant, sustainably sourced from the rich landscapes of India. Known for its numerous health and beauty benefits, this oil is rich in ricinoleic acid, which has anti-inflammatory and moisturizing properties. It's an excellent choice for promoting healthy hair growth, soothing dry skin, and supporting overall wellness. Whether used in DIY beauty treatments, as a natural laxative, or for its therapeutic qualities, our high-quality castor oil is a must-have addition to your natural health routine. At Beacon Export, we ensure every drop is pure and responsibly sourced for your peace of mind.
+                            </p>
+                        </div>
+                        <Slideshow images={[Cas1, Cas2, Cas3, Cas4]} />
+                    </div>
+                
+                    {/* Turmeric Section */}
+                    <div className="product-item product-reverse">
+                        <Slideshow images={[Tur1, Tur2, Tur3, Tur4]} />
+                        <div className="product-text">
+                            <h3>Turmeric</h3>
+                            <p>
+                                Our Turmeric is sourced from the vibrant fields of India, where the golden spice is cultivated with care. Known for its potent anti-inflammatory and antioxidant properties, this versatile spice is a staple in both culinary and wellness traditions. Whether you’re adding it to your dishes for flavor and color or using it in natural remedies for its health benefits, our turmeric is of the highest quality. With its rich, earthy aroma and vibrant hue, it enhances not only the taste of your meals but also promotes overall well-being. Experience the power of this ancient superfood with Beacon Export's premium turmeric.
+                            </p>
+                        </div>
+                    </div>
+
+                    {/* Sandalwood Section */}
+                    <div className="product-item">
+                        <div className="product-text">
+                            <h3>Sandalwood</h3>
+                            <p>
+                            Our Sandalwood is ethically sourced from the lush forests of India, renowned for its rich aroma and therapeutic properties. This precious wood has been treasured for centuries in traditional medicine and skincare. The calming scent of sandalwood makes it a favorite in aromatherapy and natural perfumes. It’s known for its anti-inflammatory and antimicrobial qualities, making it an excellent choice for skincare formulations. Whether used in essential oils, incense, or personal care products, our sandalwood embodies purity and quality. Embrace the essence of tranquility and natural beauty with Beacon Export's premium sandalwood offerings.
+                            </p>
+                        </div>
+                        <Slideshow images={[San1, San2, San3, San4]} />
+                    </div>
+                
+
+
+                    
                 </div>
             </section>
 
-            <section className="about" id="about">
-                <div className="container">
-                    <h2 className="section-title">About Us</h2>
-                    <p className="section-text">
-                        At Beacon Export, we specialize in high-quality agricultural exports from India. Our mission is to bridge the gap between India’s rich agricultural heritage and the global market by providing premium-quality millets and guar gum. With a commitment to sustainability, excellence, and ethical practices, we ensure that every product we export meets the highest standards of quality and freshness.
-                    </p>
 
-                    {/* Mission Subsection */}
-                    <h3 className="subsection-title">Our Mission</h3>
-                    <p className="section-text">
-                        Our mission is to empower local farmers by connecting them to international markets, fostering economic growth, and promoting sustainable agricultural practices. We aim to bring the rich bounty of India’s farmlands to global consumers while ensuring fair trade practices and environmental responsibility at every step of the way.
-                    </p>
 
-                    {/* Why Choose Us Subsection */}
-                    <h3 className="subsection-title">Why Choose Us</h3>
-                    <p className="section-text">
-                        With Beacon Export, you are partnering with a company that values integrity, quality, and sustainability. We pride ourselves on our rigorous quality control processes, timely delivery, and our ability to offer products that meet the unique needs of our global clients.
-                    </p>
 
-                    <h3 className="subsection-title">Partner with Beacon Export:</h3>
-                    <p className="section-text">
-                        Whether you are a retailer, distributor, or manufacturer, partnering with Beacon Export means gaining access to top-quality agricultural products and a reliable supply chain. Contact us today to learn more about our offerings and how we can help meet your needs.
-                    </p>
-                </div>
-            </section>
+
+
+
+
+
+            <section className="about-us" id="about-us">
+    <div className="about-background">
+        <div className="container">
+            <h2 className="section-title">About Us</h2>
+            <p className="section-description">
+                At Beacon Export, we are dedicated to bringing the finest agricultural products from India to the global market. With years of experience in the industry, we have established strong relationships with local farmers, ensuring that our products meet the highest standards of quality and sustainability. 
+            </p>
+            <h3 className="subsection-title">Our Values</h3>
+            <p className="section-description">
+                We believe in integrity, transparency, and sustainability. Our commitment to ethical sourcing and fair trade practices not only supports local farmers but also guarantees that our customers receive premium products that are grown with care.
+            </p>
+            <h3 className="subsection-title">Our Vision</h3>
+            <p className="section-description">
+                Our vision is to empower communities by providing them with access to international markets. We strive to be a leader in agricultural exports while making a positive impact on the lives of farmers and consumers alike.
+            </p>
+            <h3 className="subsection-title">Join Us</h3>
+            <p className="section-description">
+                Whether you are a retailer, distributor, or consumer, we invite you to join us in our mission to support sustainable agriculture and promote high-quality products. Contact us today to learn more about our offerings!
+            </p>
+        </div>
+    </div>
+</section>
+
+
 
             <section className="contact" id="contact">
                 <div className="container">
@@ -155,15 +321,16 @@ const Main = () => {
                 <div className="container">
                     <div className="footer-info">
                         <div className="contact-info">
-                            <h3>Varun Pratap Singh</h3>
-                            <p>Email: <a href="mailto:info@beaconexport.com">info@beaconexport.com</a></p>
-                            <p>Phone: <a href="tel:+14033608483">+1 (403) 360-8483</a></p>
+                            {/* <h3>Varun Pratap Singh</h3> */}
+                            <p><a href="mailto:info@beaconexport.com">info@beaconexport.com</a></p>
+                            <p><a href="tel:+14033608483">+1 (403) 360-8483</a></p>
+                            <p><a href="tel:+14033608483">+1 (514) 430-2864</a></p>
                         </div>
-                        <div className="contact-info">
-                            <h3>Madhav Tutlani</h3>
-                            <p>Email: <a href="mailto:info@beaconexport.com">info@beaconexport.com</a></p>
-                            <p>Phone: <a href="tel:+15144302864">+1 (514) 430-2864</a></p>
-                        </div>
+                        {/* <div className="contact-info"> */}
+                            {/* <h3>Madhav Tutlani</h3> */}
+                            {/* <p>Email: <a href="mailto:info@beaconexport.com">info@beaconexport.com</a></p> */}
+                            {/* <p>Phone: <a href="tel:+15144302864">+1 (514) 430-2864</a></p> */}
+                        {/* </div> */}
                     </div>
                     <p className="footer-note">© 2024 Beacon Export. All rights reserved.</p>
                 </div>
