@@ -38,10 +38,7 @@ import Tur1 from '../Assets/Tur1.jpg';
 import Tur2 from '../Assets/Tur2.jpg';
 import Tur3 from '../Assets/Tur3.jpg';
 import Tur4 from '../Assets/Tur4.jpg';
-import San1 from '../Assets/San1.jpg';
-import San2 from '../Assets/San2.jpg';
-import San3 from '../Assets/San3.jpg';
-import San4 from '../Assets/San4.jpg';
+
 
 
 const Slideshow = ({ images }) => {
@@ -253,17 +250,6 @@ const Main = () => {
                                 Our Turmeric is sourced from the vibrant fields of India, where the golden spice is cultivated with care. Known for its potent anti-inflammatory and antioxidant properties, this versatile spice is a staple in both culinary and wellness traditions. Whether you’re adding it to your dishes for flavor and color or using it in natural remedies for its health benefits, our turmeric is of the highest quality. With its rich, earthy aroma and vibrant hue, it enhances not only the taste of your meals but also promotes overall well-being. Experience the power of this ancient superfood with Beacon Export's premium turmeric.
                             </p>
                         </div>
-                    </div>
-
-                    {/* Sandalwood Section */}
-                    <div className="product-item">
-                        <div className="product-text">
-                            <h3>Sandalwood</h3>
-                            <p>
-                            Our Sandalwood is ethically sourced from the lush forests of India, renowned for its rich aroma and therapeutic properties. This precious wood has been treasured for centuries in traditional medicine and skincare. The calming scent of sandalwood makes it a favorite in aromatherapy and natural perfumes. It’s known for its anti-inflammatory and antimicrobial qualities, making it an excellent choice for skincare formulations. Whether used in essential oils, incense, or personal care products, our sandalwood embodies purity and quality. Embrace the essence of tranquility and natural beauty with Beacon Export's premium sandalwood offerings.
-                            </p>
-                        </div>
-                        <Slideshow images={[San1, San2, San3, San4]} />
                     </div>
                 
 
