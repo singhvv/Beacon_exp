@@ -7,8 +7,6 @@ import millet1 from '../Assets/Millet1.jpg';
 import millet2 from '../Assets/Millet2.jpg';
 import millet3 from '../Assets/Millet3.jpg';
 import millet4 from '../Assets/Millet4.jpg';
-import millet5 from '../Assets/Millet5.jpg';
-import millet6 from '../Assets/Millet6.jpg';
 import guar1 from '../Assets/Guar1.jpg';
 import guar2 from '../Assets/Guar2.jpg';
 import guar3 from '../Assets/Guar3.jpg';
@@ -177,7 +175,7 @@ const Main = () => {
                             At Beacon Export, we take pride in offering a diverse range of high-quality millets, including Pearl Millet, Finger Millet, and Foxtail Millet. Our products include whole grains, nutritious flour, and premium seeds, catering to both culinary and agricultural needs. Sourced directly from sustainable farms in India, our millets are rich in essential nutrients, fiber, and antioxidants, making them an excellent choice for health-conscious consumers. Whether you’re a retailer looking to expand your product line or a food manufacturer seeking wholesome ingredients, our millets provide the versatility and quality needed to meet the demands of today’s market.
                             </p>
                         </div>
-                        <Slideshow images={[millet1, millet2, millet3, millet4, millet5, millet6]} />
+                        <Slideshow images={[millet1, millet2, millet3, millet4]} />
                     </div>
                 
                     {/* Guar Gum Section */}
