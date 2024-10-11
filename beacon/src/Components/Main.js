@@ -38,6 +38,14 @@ import Tur1 from '../Assets/Tur1.jpg';
 import Tur2 from '../Assets/Tur2.jpg';
 import Tur3 from '../Assets/Tur3.jpg';
 import Tur4 from '../Assets/Tur4.jpg';
+import Rice1 from '../Assets/Rice1.jpg';
+import Rice2 from '../Assets/Rice2.jpg';
+import Rice3 from '../Assets/Rice3.jpg';
+import Rice4 from '../Assets/Rice4.jpg';
+import Mung1 from '../Assets/Mung1.jpg';
+import Mung2 from '../Assets/Mung2.jpg';
+import Mung3 from '../Assets/Mung3.jpg';
+import Mung4 from '../Assets/Mung4.jpg';
 
 
 
@@ -251,6 +259,28 @@ const Main = () => {
                             </p>
                         </div>
                     </div>
+
+                    {/* Rice Section */}
+                    <div className="product-item">
+                        <div className="product-text">
+                            <h3>Rice</h3>
+                            <p>
+                            At Beacon Export, we specialize in delivering premium quality rice varieties sourced directly from India’s fertile fields. Our selection includes Basmati, non-Basmati, and organic rice options, perfect for diverse culinary applications. We focus on ensuring that each grain is carefully processed, retaining its natural aroma and flavor. Whether you are seeking bulk quantities for wholesale or specific grades for unique needs, our rice meets rigorous quality standards. Our commitment to sustainability and fair trade ensures that the rice we supply supports both the farmers and the environment.
+                            </p>
+                        </div>
+                        <Slideshow images={[Rice1, Rice2, Rice3, Rice4]} />
+                    </div>
+                
+                    {/* Mung Beans Section */}
+                    <div className="product-item product-reverse">
+                        <Slideshow images={[Mung1, Mung2, Mung3, Mung4]} />
+                        <div className="product-text">
+                            <h3>Mung Beans</h3>
+                            <p>
+                            Beacon Export offers high-quality mung beans, known for their rich nutritional profile and versatility. Our mung beans are sourced from trusted farmers in India, ensuring they are packed with natural goodness. Whether you need whole beans, split mung (moong dal), or sprouted varieties, we provide products that meet strict quality standards. Ideal for a range of culinary applications, from soups to salads, our mung beans are processed and packed to retain their freshness. We prioritize sustainable farming practices, ensuring that our offerings are both environmentally responsible and supportive of local agricultural communities.
+                            </p>
+                        </div>
+                    </div>
                 
 
 
@@ -298,6 +328,9 @@ const Main = () => {
                         Ready to take the next step? Reach out to us today and let's start working together.
                     </p>
                     <a href="mailto:info@beaconexport.com" className="contact-button">Email Us</a>
+                    <a href="https://www.linkedin.com/company/beaconexport" target="_blank" rel="noopener noreferrer" className="linkedin-button">
+                        <img src={linkedinIcon} alt="LinkedIn" />
+                    </a>
                 </div>
             </section>
 
