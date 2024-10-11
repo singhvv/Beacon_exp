@@ -328,7 +328,7 @@ const Main = () => {
                         Ready to take the next step? Reach out to us today and let's start working together.
                     </p>
                     <a href="mailto:info@beaconexport.com" className="contact-button">Email Us</a>
-                    <a href="https://www.linkedin.com/company/beaconexport" target="_blank" rel="noopener noreferrer" className="linkedin-button">
+                    <a href="https://www.linkedin.com/company/beacon-export" target="_blank" rel="noopener noreferrer" className="linkedin-button">
                         <img src={linkedinIcon} alt="LinkedIn" />
                     </a>
                 </div>
