@@ -189,7 +189,7 @@ const Main = () => {
                         <div className="product-text">
                             <h3>Guar Gum</h3>
                             <p>
-                                We offer top-quality Guar Gum, a natural thickening and stabilizing agent derived from the seeds of the guar plant. Our guar gum is sourced from trusted farms in India and is available in various grades, suitable for a wide range of applications, including food, pharmaceuticals, and cosmetics. Known for its exceptional viscosity and binding properties, our guar gum enhances the texture and shelf life of food products, making it an essential ingredient in sauces, dairy products, and baked goods. With our commitment to quality and sustainability, we ensure that our guar gum meets the highest standards for purity and performance.
+                                We offer top-quality Guar Gum, a natural thickening and stabilizing agent derived from the seeds of the guar plant. Our guar gum is sourced from trusted farms in India and is available in various grades, suitable for a wide range of applications, including food, pharmaceuticals, textiles, oil & gas, and cosmetics. Known for its exceptional viscosity and binding properties, our guar gum enhances the texture and shelf life of food products, making it an essential ingredient in sauces, dairy products, and baked goods. With our commitment to quality and sustainability, we ensure that our guar gum meets the highest standards for purity and performance.
                             </p>
                         </div>
                     </div>
