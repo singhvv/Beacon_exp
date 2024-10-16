@@ -76,7 +76,6 @@ const Slideshow = ({ images }) => {
 };
 
 
-
 const scrollToSection = (event, selector) => {
     event.preventDefault();
     const target = document.querySelector(selector);
@@ -98,11 +97,6 @@ const Main = () => {
                 scrollToSection(event, link.getAttribute('href'));
             });
         });
-        
-        const script = document.createElement('script');
-        script.src = 'https://assets.calendly.com/assets/external/widget.js';
-        script.async = true;
-        document.body.appendChild(script);
 
         return () => {
             links.forEach(link => {
@@ -116,6 +110,8 @@ const Main = () => {
     const toggleMenu = () => {
         setMenuActive(!menuActive);
     };
+
+    
     
     return (
         <main className="main">
@@ -335,13 +331,8 @@ const Main = () => {
                     <a href="https://www.linkedin.com/company/beacon-export" target="_blank" rel="noopener noreferrer" className="linkedin-button">
                         <img src={linkedinIcon} alt="LinkedIn" />
                     </a>
-
-                    {/* Calendly inline widget */}
-                    <div className="calendly-inline-widget" data-url="https://calendly.com/vp-182k/consultation" style={{ minWidth: "320px", height: "700px" }}></div>
-
                 </div>
             </section>
-
 
             <section className="footer">
                 <div className="container">
