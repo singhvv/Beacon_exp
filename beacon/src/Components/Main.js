@@ -46,6 +46,10 @@ import Mung1 from '../Assets/Mung1.jpg';
 import Mung2 from '../Assets/Mung2.jpg';
 import Mung3 from '../Assets/Mung3.jpg';
 import Mung4 from '../Assets/Mung4.jpg';
+import Wheat1 from '../Assets/Wheat1.jpg';
+import Wheat2 from '../Assets/Wheat2.jpg';
+import Wheat3 from '../Assets/Wheat3.jpg';
+import Wheat4 from '../Assets/Wheat4.jpg';
 
 
 
@@ -282,7 +286,16 @@ const Main = () => {
                         </div>
                     </div>
 
-                
+                    {/* Flour Section */}
+                    <div className="product-item">
+                        <div className="product-text">
+                            <h3>Flour</h3>
+                            <p>
+                                Our range of flours is crafted from the finest grains and seeds sourced from India’s fertile landscapes, offering versatile, nutrient-rich options for all your culinary needs. From traditional wheat flour to unique varieties like amaranth, millet, and sorghum, each type is carefully milled to preserve its natural nutrients and smooth texture. These flours are rich in fiber, vitamins, and minerals, supporting a balanced diet and enhancing a variety of recipes. Whether you’re baking breads, creating wholesome meals, or exploring gluten-free options, our flours bring quality and nutrition to your kitchen. At Beacon Export, we ensure every batch is pure, fresh, and responsibly sourced for your peace of mind.
+                            </p>
+                        </div>
+                        <Slideshow images={[Wheat1, Wheat2, Wheat3, Wheat4]} />
+                    </div>
 
 
                     
