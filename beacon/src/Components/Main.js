@@ -194,8 +194,8 @@ const Main = () => {
                         </div>
                     </div>
 
-                    {/* Aloe Vera Section */}
-                    <div className="product-item">
+
+                    {/* <div className="product-item">
                         <div className="product-text">
                             <h3>Aloe Vera</h3>
                             <p>
@@ -205,18 +205,9 @@ const Main = () => {
                         <Slideshow images={[Aloe1, Aloe2, Aloe3, Aloe4]} />
                     </div>
                 
-                    {/* Saffron Section */}
-                    <div className="product-item product-reverse">
-                        <Slideshow images={[Saffron1, Saffron2, Saffron3, Saffron4]} />
-                        <div className="product-text">
-                            <h3>Saffron</h3>
-                            <p>
-                                We take great pride in offering one of India's most exotic products, Saffron, renowned for its exquisite flavor and vibrant hue. Sourced from the lush fields of Kashmir, our Saffron is meticulously hand-harvested, capturing the essence of this luxurious spice. With its rich aroma, Saffron elevates everything from traditional dishes to modern culinary creations. Beyond its culinary appeal, this golden treasure is celebrated for its potential health benefits, making it a favorite in the wellness community. Our commitment to quality and sustainability ensures that each strand reflects the dedication of our farmers, providing you with the finest Saffron straight from the heart of India.
-                            </p>
-                        </div>
-                    </div>
 
-                    {/* Coconut Oil Section */}
+
+
                     <div className="product-item">
                         <div className="product-text">
                             <h3>Coconut Oil</h3>
@@ -227,7 +218,7 @@ const Main = () => {
                         <Slideshow images={[Coco1, Coco2, Coco3, Coco4]} />
                     </div>
                 
-                    {/* Jojoba Oil Section */}
+
                     <div className="product-item product-reverse">
                         <Slideshow images={[Jo1, Jo2, Jo3, Jo4]} />
                         <div className="product-text">
@@ -238,7 +229,7 @@ const Main = () => {
                         </div>
                     </div>
 
-                    {/* Castor Oil Section */}
+
                     <div className="product-item">
                         <div className="product-text">
                             <h3>Castor Oil</h3>
@@ -249,7 +240,7 @@ const Main = () => {
                         <Slideshow images={[Cas1, Cas2, Cas3, Cas4]} />
                     </div>
                 
-                    {/* Turmeric Section */}
+
                     <div className="product-item product-reverse">
                         <Slideshow images={[Tur1, Tur2, Tur3, Tur4]} />
                         <div className="product-text">
@@ -259,6 +250,16 @@ const Main = () => {
                             </p>
                         </div>
                     </div>
+
+                    <div className="product-item product-reverse">
+                        <Slideshow images={[Mung1, Mung2, Mung3, Mung4]} />
+                        <div className="product-text">
+                            <h3>Mung Beans</h3>
+                            <p>
+                            Beacon Export offers high-quality mung beans, known for their rich nutritional profile and versatility. Our mung beans are sourced from trusted farmers in India, ensuring they are packed with natural goodness. Whether you need whole beans, split mung (moong dal), or sprouted varieties, we provide products that meet strict quality standards. Ideal for a range of culinary applications, from soups to salads, our mung beans are processed and packed to retain their freshness. We prioritize sustainable farming practices, ensuring that our offerings are both environmentally responsible and supportive of local agricultural communities.
+                            </p>
+                        </div>
+                    </div> */}
 
                     {/* Rice Section */}
                     <div className="product-item">
@@ -271,16 +272,16 @@ const Main = () => {
                         <Slideshow images={[Rice1, Rice2, Rice3, Rice4]} />
                     </div>
                 
-                    {/* Mung Beans Section */}
                     <div className="product-item product-reverse">
-                        <Slideshow images={[Mung1, Mung2, Mung3, Mung4]} />
+                        <Slideshow images={[Saffron1, Saffron2, Saffron3, Saffron4]} />
                         <div className="product-text">
-                            <h3>Mung Beans</h3>
+                            <h3>Saffron</h3>
                             <p>
-                            Beacon Export offers high-quality mung beans, known for their rich nutritional profile and versatility. Our mung beans are sourced from trusted farmers in India, ensuring they are packed with natural goodness. Whether you need whole beans, split mung (moong dal), or sprouted varieties, we provide products that meet strict quality standards. Ideal for a range of culinary applications, from soups to salads, our mung beans are processed and packed to retain their freshness. We prioritize sustainable farming practices, ensuring that our offerings are both environmentally responsible and supportive of local agricultural communities.
+                                We take great pride in offering one of India's most exotic products, Saffron, renowned for its exquisite flavor and vibrant hue. Sourced from the lush fields of Kashmir, our Saffron is meticulously hand-harvested, capturing the essence of this luxurious spice. With its rich aroma, Saffron elevates everything from traditional dishes to modern culinary creations. Beyond its culinary appeal, this golden treasure is celebrated for its potential health benefits, making it a favorite in the wellness community. Our commitment to quality and sustainability ensures that each strand reflects the dedication of our farmers, providing you with the finest Saffron straight from the heart of India.
                             </p>
                         </div>
                     </div>
+
                 
 
 
