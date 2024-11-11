@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.70f8653b.css",
-    "main.js": "/static/js/main.531d237e.js",
+    "main.js": "/static/js/main.d4770640.js",
+    "static/media/Wheat1.jpg": "/static/media/Wheat1.ef1a6d1ccab7d63ad0a1.jpg",
+    "static/media/Wheat2.jpg": "/static/media/Wheat2.8d608480b1e43c07d4be.jpg",
     "static/media/hero-bg.jpg": "/static/media/hero-bg.19a7fb2ed64e726c6974.jpg",
     "static/media/farmer.jpg": "/static/media/farmer.126e4486458584a56ced.jpg",
+    "static/media/Wheat4.jpg": "/static/media/Wheat4.aace3933001bac977d07.jpg",
     "static/media/container.jpg": "/static/media/container.fcc64b1f9b2257d3de2f.jpg",
     "static/media/Rice4.jpg": "/static/media/Rice4.62c6b9d2e9fcfd08c590.jpg",
     "static/media/Saffron3.jpg": "/static/media/Saffron3.7f05071a626e47ab9291.jpg",
     "static/media/Mung1.jpg": "/static/media/Mung1.c79aad9ec4f94392bf8b.jpg",
+    "static/media/Wheat3.jpg": "/static/media/Wheat3.4519b96a108fb87376e5.jpg",
     "static/media/Millet1.jpg": "/static/media/Millet1.04b07d9d6524d47fa843.jpg",
     "static/media/Rice2.jpg": "/static/media/Rice2.fbf0f0c584adedaaeea1.jpg",
     "static/media/Guar2.jpg": "/static/media/Guar2.ae67336754f291cc5f56.jpg",
@@ -45,10 +49,10 @@
     "static/media/Guar3.jpg": "/static/media/Guar3.b4b1659160a5af3281a8.jpg",
     "index.html": "/index.html",
     "main.70f8653b.css.map": "/static/css/main.70f8653b.css.map",
-    "main.531d237e.js.map": "/static/js/main.531d237e.js.map"
+    "main.d4770640.js.map": "/static/js/main.d4770640.js.map"
   },
   "entrypoints": [
     "static/css/main.70f8653b.css",
-    "static/js/main.531d237e.js"
+    "static/js/main.d4770640.js"
   ]
 }
