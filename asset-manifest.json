@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.70f8653b.css",
-    "main.js": "/static/js/main.d4770640.js",
+    "main.css": "/static/css/main.c6848cc5.css",
+    "main.js": "/static/js/main.f50b0630.js",
+    "static/media/farmer.jpg": "/static/media/farmer.b7acc193a2d36d645434.jpg",
     "static/media/Wheat1.jpg": "/static/media/Wheat1.ef1a6d1ccab7d63ad0a1.jpg",
     "static/media/Wheat2.jpg": "/static/media/Wheat2.8d608480b1e43c07d4be.jpg",
     "static/media/hero-bg.jpg": "/static/media/hero-bg.19a7fb2ed64e726c6974.jpg",
-    "static/media/farmer.jpg": "/static/media/farmer.126e4486458584a56ced.jpg",
     "static/media/Wheat4.jpg": "/static/media/Wheat4.aace3933001bac977d07.jpg",
     "static/media/container.jpg": "/static/media/container.fcc64b1f9b2257d3de2f.jpg",
     "static/media/Rice4.jpg": "/static/media/Rice4.62c6b9d2e9fcfd08c590.jpg",
     "static/media/Saffron3.jpg": "/static/media/Saffron3.7f05071a626e47ab9291.jpg",
     "static/media/Mung1.jpg": "/static/media/Mung1.c79aad9ec4f94392bf8b.jpg",
     "static/media/Wheat3.jpg": "/static/media/Wheat3.4519b96a108fb87376e5.jpg",
+    "static/media/Soy2.jpg": "/static/media/Soy2.1838ab57922320d7be6a.jpg",
     "static/media/Millet1.jpg": "/static/media/Millet1.04b07d9d6524d47fa843.jpg",
     "static/media/Rice2.jpg": "/static/media/Rice2.fbf0f0c584adedaaeea1.jpg",
     "static/media/Guar2.jpg": "/static/media/Guar2.ae67336754f291cc5f56.jpg",
@@ -23,6 +24,7 @@
     "static/media/Aloe3.jpg": "/static/media/Aloe3.05752845f60c17daed60.jpg",
     "static/media/Tur1.jpg": "/static/media/Tur1.641fe29e64a58a019c5b.jpg",
     "static/media/Mung3.jpg": "/static/media/Mung3.e1e5e1d6605915d93f38.jpg",
+    "static/media/Soy1.jpg": "/static/media/Soy1.87dcb7df4727204320fd.jpg",
     "static/media/Tur3.jpg": "/static/media/Tur3.86629b059d9ec968beca.jpg",
     "static/media/Cas4.jpg": "/static/media/Cas4.37f4e85945c651ad8311.jpg",
     "static/media/Guar1.jpg": "/static/media/Guar1.9392a46abfe5e346a90b.jpg",
@@ -46,13 +48,15 @@
     "static/media/Tur4.jpg": "/static/media/Tur4.37c601757e7dad881bb1.jpg",
     "static/media/Coco3.jpg": "/static/media/Coco3.d35dde4c33018a6f01ff.jpg",
     "static/media/Saffron1.jpg": "/static/media/Saffron1.3845c96ad0e716a0d1df.jpg",
+    "static/media/Soy3.jpg": "/static/media/Soy3.c987943e4d2a7961c695.jpg",
     "static/media/Guar3.jpg": "/static/media/Guar3.b4b1659160a5af3281a8.jpg",
+    "static/media/Soy4.jpg": "/static/media/Soy4.43e0b98162dad3c08290.jpg",
     "index.html": "/index.html",
-    "main.70f8653b.css.map": "/static/css/main.70f8653b.css.map",
-    "main.d4770640.js.map": "/static/js/main.d4770640.js.map"
+    "main.c6848cc5.css.map": "/static/css/main.c6848cc5.css.map",
+    "main.f50b0630.js.map": "/static/js/main.f50b0630.js.map"
   },
   "entrypoints": [
-    "static/css/main.70f8653b.css",
-    "static/js/main.d4770640.js"
+    "static/css/main.c6848cc5.css",
+    "static/js/main.f50b0630.js"
   ]
 }
