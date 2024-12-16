@@ -22,6 +22,10 @@ import Saffron1 from '../Assets/Saffron1.jpg';
 import Saffron2 from '../Assets/Saffron2.jpg';
 import Saffron3 from '../Assets/Saffron3.jpg';
 import Saffron4 from '../Assets/Saffron4.jpg';
+import Soy1 from '../Assets/Soy1.jpg';
+import Soy2 from '../Assets/Soy2.jpg';
+import Soy3 from '../Assets/Soy3.jpg';
+import Soy4 from '../Assets/Soy4.jpg';
 import Coco1 from '../Assets/Coco1.jpg';
 import Coco2 from '../Assets/Coco2.jpg';
 import Coco3 from '../Assets/Coco3.jpg';
@@ -276,12 +280,24 @@ const Main = () => {
                         <Slideshow images={[Rice1, Rice2, Rice3, Rice4]} />
                     </div>
                 
+                    {/* Saffron Section
                     <div className="product-item product-reverse">
                         <Slideshow images={[Saffron1, Saffron2, Saffron3, Saffron4]} />
                         <div className="product-text">
                             <h3>Saffron</h3>
                             <p>
                                 We take great pride in offering one of India's most exotic products, Saffron, renowned for its exquisite flavor and vibrant hue. Sourced from the lush fields of Kashmir, our Saffron is meticulously hand-harvested, capturing the essence of this luxurious spice. With its rich aroma, Saffron elevates everything from traditional dishes to modern culinary creations. Beyond its culinary appeal, this golden treasure is celebrated for its potential health benefits, making it a favorite in the wellness community. Our commitment to quality and sustainability ensures that each strand reflects the dedication of our farmers, providing you with the finest Saffron straight from the heart of India.
+                            </p>
+                        </div>
+                    </div> */}
+
+                    {/* Soy Lecithin Section */}
+                    <div className="product-item product-reverse">
+                        <Slideshow images={[Soy1, Soy2, Soy3, Soy4]} />
+                        <div className="product-text">
+                            <h3>Soy Lecithin</h3>
+                            <p>
+                                We take great pride in offering one of India’s finest exports, Soy Lecithin, valued for its versatility and numerous applications. Extracted from high-quality soybeans, our Soy Lecithin is a natural emulsifier, enhancing texture and stability in a wide range of food products, from baked goods to chocolates and beverages. Its benefits extend beyond the culinary world, finding essential uses in pharmaceuticals, cosmetics, and nutritional supplements. Celebrated for its health-boosting properties, including supporting heart and brain health, Soy Lecithin is a cornerstone in wellness and innovation. With a commitment to quality and sustainability, we ensure every batch is carefully processed to deliver a product that meets the highest global standards.
                             </p>
                         </div>
                     </div>
