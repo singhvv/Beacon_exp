@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c6848cc5.css",
-    "main.js": "/static/js/main.f50b0630.js",
+    "main.js": "/static/js/main.55e0ee6f.js",
     "static/media/farmer.jpg": "/static/media/farmer.b7acc193a2d36d645434.jpg",
     "static/media/Wheat1.jpg": "/static/media/Wheat1.ef1a6d1ccab7d63ad0a1.jpg",
     "static/media/Wheat2.jpg": "/static/media/Wheat2.8d608480b1e43c07d4be.jpg",
@@ -53,10 +53,10 @@
     "static/media/Soy4.jpg": "/static/media/Soy4.43e0b98162dad3c08290.jpg",
     "index.html": "/index.html",
     "main.c6848cc5.css.map": "/static/css/main.c6848cc5.css.map",
-    "main.f50b0630.js.map": "/static/js/main.f50b0630.js.map"
+    "main.55e0ee6f.js.map": "/static/js/main.55e0ee6f.js.map"
   },
   "entrypoints": [
     "static/css/main.c6848cc5.css",
-    "static/js/main.f50b0630.js"
+    "static/js/main.55e0ee6f.js"
   ]
 }
