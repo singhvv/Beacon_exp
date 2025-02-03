@@ -274,7 +274,7 @@ const Main = () => {
                         <div className="product-text">
                             <h3>Rice</h3>
                             <p>
-                            At Beacon Export, we specialize in delivering premium quality rice varieties sourced directly from India’s fertile fields. Our selection includes Basmati, non-Basmati, and organic rice options, perfect for diverse culinary applications. We focus on ensuring that each grain is carefully processed, retaining its natural aroma and flavor. Whether you are seeking bulk quantities for wholesale or specific grades for unique needs, our rice meets rigorous quality standards. Our commitment to sustainability and fair trade ensures that the rice we supply supports both the farmers and the environment.
+                            At Beacon Export, we specialize in delivering premium quality rice sourced directly from India’s fertile fields. Our Basmati rice is perfect for diverse culinary applications. We focus on ensuring that each grain is carefully processed, retaining its natural aroma and flavor. Whether you are seeking bulk quantities for wholesale or specific grades for unique needs, our rice meets rigorous quality standards. Our commitment to sustainability and fair trade ensures that the rice we supply supports both the farmers and the environment.
                             </p>
                         </div>
                         <Slideshow images={[Rice1, Rice2, Rice3, Rice4]} />
