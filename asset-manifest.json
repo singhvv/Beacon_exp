@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c6848cc5.css",
-    "main.js": "/static/js/main.25b87225.js",
+    "main.js": "/static/js/main.9c507363.js",
     "static/media/farmer.jpg": "/static/media/farmer.b7acc193a2d36d645434.jpg",
     "static/media/Wheat1.jpg": "/static/media/Wheat1.ef1a6d1ccab7d63ad0a1.jpg",
     "static/media/Wheat2.jpg": "/static/media/Wheat2.8d608480b1e43c07d4be.jpg",
@@ -9,11 +9,12 @@
     "static/media/Wheat4.jpg": "/static/media/Wheat4.aace3933001bac977d07.jpg",
     "static/media/container.jpg": "/static/media/container.fcc64b1f9b2257d3de2f.jpg",
     "static/media/Rice4.jpg": "/static/media/Rice4.62c6b9d2e9fcfd08c590.jpg",
+    "static/media/Millet1.jpg": "/static/media/Millet1.408370bfccd54082b8ba.jpg",
     "static/media/Saffron3.jpg": "/static/media/Saffron3.7f05071a626e47ab9291.jpg",
     "static/media/Mung1.jpg": "/static/media/Mung1.c79aad9ec4f94392bf8b.jpg",
     "static/media/Wheat3.jpg": "/static/media/Wheat3.4519b96a108fb87376e5.jpg",
     "static/media/Soy2.jpg": "/static/media/Soy2.1838ab57922320d7be6a.jpg",
-    "static/media/Millet1.jpg": "/static/media/Millet1.04b07d9d6524d47fa843.jpg",
+    "static/media/Psyllium3.jpg": "/static/media/Psyllium3.fa398cef53be3f9740a9.jpg",
     "static/media/Rice2.jpg": "/static/media/Rice2.fbf0f0c584adedaaeea1.jpg",
     "static/media/Guar2.jpg": "/static/media/Guar2.ae67336754f291cc5f56.jpg",
     "static/media/Saffron2.jpg": "/static/media/Saffron2.72f62b57106618531ad3.jpg",
@@ -28,9 +29,10 @@
     "static/media/Tur3.jpg": "/static/media/Tur3.86629b059d9ec968beca.jpg",
     "static/media/Cas4.jpg": "/static/media/Cas4.37f4e85945c651ad8311.jpg",
     "static/media/Guar1.jpg": "/static/media/Guar1.9392a46abfe5e346a90b.jpg",
+    "static/media/Psyllium1.jpg": "/static/media/Psyllium1.78b541c135120d1146f6.jpg",
     "static/media/Millet2.jpg": "/static/media/Millet2.879270b5bf866f93b1a7.jpg",
     "static/media/Cas2.jpg": "/static/media/Cas2.c5b0f022adae61b0e282.jpg",
-    "static/media/Millet4.jpg": "/static/media/Millet4.12beac47258b8e5298b5.jpg",
+    "static/media/Millet4.jpg": "/static/media/Millet4.63c30210c6763f2e1c05.jpg",
     "static/media/Aloe2.jpg": "/static/media/Aloe2.6c50338f21f47d04d663.jpg",
     "static/media/Millet3.jpg": "/static/media/Millet3.60d65b181915b5aec433.jpg",
     "static/media/Guar4.jpg": "/static/media/Guar4.f71e30efaa4462296f29.jpg",
@@ -41,10 +43,12 @@
     "static/media/Cas3.jpg": "/static/media/Cas3.222230454d554300b47b.jpg",
     "static/media/Jo2.jpg": "/static/media/Jo2.dd4a72f87732f5522578.jpg",
     "static/media/Saffron4.jpg": "/static/media/Saffron4.28b42e0979f6d14f79c7.jpg",
+    "static/media/Psyllium2.jpg": "/static/media/Psyllium2.f34d14f0241f94d4f653.jpg",
     "static/media/Coco1.jpg": "/static/media/Coco1.add05d48f3f602c925c1.jpg",
     "static/media/Beacon.png": "/static/media/Beacon.e75f0868da57b7f50d0a.png",
     "static/media/Tur2.jpg": "/static/media/Tur2.848e57316f4a4e6546af.jpg",
     "static/media/Rice1.jpg": "/static/media/Rice1.c80665cd805697a6afb0.jpg",
+    "static/media/Psyllium4.jpg": "/static/media/Psyllium4.4d01cd0db39f6f788620.jpg",
     "static/media/Tur4.jpg": "/static/media/Tur4.37c601757e7dad881bb1.jpg",
     "static/media/Coco3.jpg": "/static/media/Coco3.d35dde4c33018a6f01ff.jpg",
     "static/media/Saffron1.jpg": "/static/media/Saffron1.3845c96ad0e716a0d1df.jpg",
@@ -53,10 +57,10 @@
     "static/media/Soy4.jpg": "/static/media/Soy4.43e0b98162dad3c08290.jpg",
     "index.html": "/index.html",
     "main.c6848cc5.css.map": "/static/css/main.c6848cc5.css.map",
-    "main.25b87225.js.map": "/static/js/main.25b87225.js.map"
+    "main.9c507363.js.map": "/static/js/main.9c507363.js.map"
   },
   "entrypoints": [
     "static/css/main.c6848cc5.css",
-    "static/js/main.25b87225.js"
+    "static/js/main.9c507363.js"
   ]
 }
