@@ -54,6 +54,10 @@ import Wheat1 from '../Assets/Wheat1.jpg';
 import Wheat2 from '../Assets/Wheat2.jpg';
 import Wheat3 from '../Assets/Wheat3.jpg';
 import Wheat4 from '../Assets/Wheat4.jpg';
+import Psyllium1 from '../Assets/Psyllium1.jpg';
+import Psyllium2 from '../Assets/Psyllium2.jpg';
+import Psyllium3 from '../Assets/Psyllium3.jpg';
+import Psyllium4 from '../Assets/Psyllium4.jpg';
 
 
 
@@ -291,18 +295,18 @@ const Main = () => {
                         </div>
                     </div> */}
 
-                    {/* Soy Lecithin Section */}
+                    {/* Psyllium Husk Section */}
                     <div className="product-item product-reverse">
-                        <Slideshow images={[Soy1, Soy2, Soy3, Soy4]} />
+                        <Slideshow images={[Psyllium1, Psyllium2, Psyllium3, Psyllium4]} />
                         <div className="product-text">
-                            <h3>Soy Lecithin</h3>
+                            <h3>Psyllium Husk</h3>
                             <p>
-                                We take great pride in offering one of India’s finest exports, Soy Lecithin, valued for its versatility and numerous applications. Extracted from high-quality soybeans, our Soy Lecithin is a natural emulsifier, enhancing texture and stability in a wide range of food products, from baked goods to chocolates and beverages. Its benefits extend beyond the culinary world, finding essential uses in pharmaceuticals, cosmetics, and nutritional supplements. Celebrated for its health-boosting properties, including supporting heart and brain health, Soy Lecithin is a cornerstone in wellness and innovation. With a commitment to quality and sustainability, we ensure every batch is carefully processed to deliver a product that meets the highest global standards.
+                                We are pleased to offer Psyllium Husk and Psyllium Husk Powder, one of India’s most valued natural exports, renowned for its exceptional dietary and functional benefits. Derived from the seeds of the Plantago ovata plant, our Psyllium Husk is a rich source of soluble fiber, making it a trusted ingredient for digestive health and regularity. Widely used in the food industry, it enhances texture, moisture retention, and fiber content in baked goods, breakfast cereals, and gluten-free formulations. Its applications extend into the pharmaceutical and nutraceutical sectors, where it's recognized for supporting heart health, blood sugar regulation, and weight management. At Beacon Export, we uphold the highest standards of purity and sustainability, delivering Psyllium Husk that meets global quality expectations.
                             </p>
                         </div>
                     </div>
 
-                    {/* Flour Section */}
+                    {/* Flour Section
                     <div className="product-item">
                         <div className="product-text">
                             <h3>Flour</h3>
@@ -311,7 +315,7 @@ const Main = () => {
                             </p>
                         </div>
                         <Slideshow images={[Wheat1, Wheat2, Wheat3, Wheat4]} />
-                    </div>
+                    </div> */}
 
 
                     
