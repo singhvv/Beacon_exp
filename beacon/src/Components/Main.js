@@ -337,15 +337,22 @@ const Main = () => {
                     <div className="footer-info">
                         <div className="contact-info">
                             {/* <h3>Varun Pratap Singh</h3> */}
-                            <p><a href="mailto:info@beaconexport.com">info@beaconexport.com</a></p>
+                            <p><a>Calgary, AB, CA</a></p>
                             <p><a href="tel:+14033608483">+1 (403) 360-8483</a></p>
-                            <p><a href="tel:+14033608483">+1 (514) 430-2864</a></p>
+                            <p><a href="mailto:info@beaconexport.com">info@beaconexport.com</a></p>
                         </div>
-                        {/* <div className="contact-info"> */}
+                        <div className="contact-info">
+                            {/* <h3>Varun Pratap Singh</h3> */}
+                            <p><a>Montreal, QC, CA</a></p>
+                            <p><a href="tel:+14033608483">+1 (514) 430-2864</a></p>
+                            <p><a href="mailto:info@beaconexport.com">info@beaconexport.com</a></p>
+                        </div>
+                        <div className="contact-info">
                             {/* <h3>Madhav Tutlani</h3> */}
-                            {/* <p>Email: <a href="mailto:info@beaconexport.com">info@beaconexport.com</a></p> */}
-                            {/* <p>Phone: <a href="tel:+15144302864">+1 (514) 430-2864</a></p> */}
-                        {/* </div> */}
+                            <p><a>India</a></p>
+                            <p><a href="tel:+15144302864">+91 79730 27308</a></p>
+                            <p><a href="mailto:info@beaconexport.com">info@beaconexport.com</a></p>
+                        </div>
                     </div>
                     <p className="footer-note">© 2024 Beacon Export. All rights reserved.</p>
                 </div>
