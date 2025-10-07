@@ -1,33 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.d13dbb53.css",
-    "main.js": "/static/js/main.2c4b7801.js",
-    "static/media/farmer.jpg": "/static/media/farmer.b7acc193a2d36d645434.jpg",
-    "static/media/hero-bg.jpg": "/static/media/hero-bg.19a7fb2ed64e726c6974.jpg",
-    "static/media/container.jpg": "/static/media/container.fcc64b1f9b2257d3de2f.jpg",
-    "static/media/Rice4.jpg": "/static/media/Rice4.62c6b9d2e9fcfd08c590.jpg",
-    "static/media/Millet1.jpg": "/static/media/Millet1.408370bfccd54082b8ba.jpg",
-    "static/media/Psyllium3.jpg": "/static/media/Psyllium3.fa398cef53be3f9740a9.jpg",
-    "static/media/Rice2.jpg": "/static/media/Rice2.fbf0f0c584adedaaeea1.jpg",
-    "static/media/Guar2.jpg": "/static/media/Guar2.ae67336754f291cc5f56.jpg",
-    "static/media/Rice3.jpg": "/static/media/Rice3.530cedbde1a0c4fe1b22.jpg",
-    "static/media/Guar1.jpg": "/static/media/Guar1.9392a46abfe5e346a90b.jpg",
-    "static/media/Psyllium1.jpg": "/static/media/Psyllium1.78b541c135120d1146f6.jpg",
-    "static/media/Millet2.jpg": "/static/media/Millet2.879270b5bf866f93b1a7.jpg",
-    "static/media/Millet4.jpg": "/static/media/Millet4.63c30210c6763f2e1c05.jpg",
-    "static/media/Millet3.jpg": "/static/media/Millet3.60d65b181915b5aec433.jpg",
-    "static/media/Guar4.jpg": "/static/media/Guar4.f71e30efaa4462296f29.jpg",
-    "static/media/Psyllium2.jpg": "/static/media/Psyllium2.f34d14f0241f94d4f653.jpg",
+    "main.css": "/static/css/main.c503a739.css",
+    "main.js": "/static/js/main.609366be.js",
+    "static/media/ricevid.mp4": "/static/media/ricevid.9de44fb9f8e0cacdec52.mp4",
+    "static/media/milletvid.mp4": "/static/media/milletvid.f1440a20ef4cf8cf4c40.mp4",
+    "static/media/guarvid.mp4": "/static/media/guarvid.d708b037216a43e3389e.mp4",
+    "static/media/psyvid.mp4": "/static/media/psyvid.704015621e66ed740046.mp4",
+    "static/media/herovid.mp4": "/static/media/herovid.7d06e1c9025e1731a233.mp4",
+    "static/media/farmer.jpg": "/static/media/farmer.fcc64b1f9b2257d3de2f.jpg",
     "static/media/Beacon.png": "/static/media/Beacon.e75f0868da57b7f50d0a.png",
-    "static/media/Rice1.jpg": "/static/media/Rice1.c80665cd805697a6afb0.jpg",
-    "static/media/Psyllium4.jpg": "/static/media/Psyllium4.4d01cd0db39f6f788620.jpg",
-    "static/media/Guar3.jpg": "/static/media/Guar3.b4b1659160a5af3281a8.jpg",
     "index.html": "/index.html",
-    "main.d13dbb53.css.map": "/static/css/main.d13dbb53.css.map",
-    "main.2c4b7801.js.map": "/static/js/main.2c4b7801.js.map"
+    "main.c503a739.css.map": "/static/css/main.c503a739.css.map",
+    "main.609366be.js.map": "/static/js/main.609366be.js.map"
   },
   "entrypoints": [
-    "static/css/main.d13dbb53.css",
-    "static/js/main.2c4b7801.js"
+    "static/css/main.c503a739.css",
+    "static/js/main.609366be.js"
   ]
 }
