@@ -230,6 +230,26 @@ document.querySelector('.navbar-links').classList.toggle('active');
       </div>
     </div>
   </section>
+
+  <footer className="footer">
+  <div className="footer-content">
+    <div className="footer-contact">
+      <p><strong></strong> Madhav Tutlani</p>
+      <p><strong>Phone:</strong> +1 (514) 430-2864</p>
+      {/* <p><strong>Email:</strong> info@beaconexport.com</p> */}
+    </div>
+    <div className="footer-contact">
+      <p><strong></strong> Varun Pratap Singh</p>
+      <p><strong>Phone:</strong> +1 (403) 360-8483</p>
+      {/* <p><strong>Email:</strong> info@beaconexport.com</p> */}
+    </div>
+  </div>
+
+  <div className="footer-bottom">
+    <p>© {new Date().getFullYear()} Beacon Export. All rights reserved.</p>
+  </div>
+</footer>
+
 </main>
 
 

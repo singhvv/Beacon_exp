@@ -29,3 +29,72 @@ body {
   padding: 10px;
   text-align: center;
 }
+
+
+
+/* ===== Footer Section ===== */
+.footer {
+  background-color: #014859;       /* Beacon Export primary color */
+  color: #ffffff;                  /* White text for contrast */
+  padding: 40px 20px;              /* Spacing inside footer */
+  text-align: center;              /* Center-align text on desktop */
+  font-family: Helvetica, sans-serif;
+  margin-top: 60px;                /* Space above footer */
+}
+
+.footer h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.footer p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.footer a:hover {
+  opacity: 0.8;
+}
+
+/* Subsection layout */
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1100px;
+  margin: 0 auto 20px;
+  text-align: left;
+  gap: 40px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  padding-top: 15px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .footer h3 {
+    font-size: 1.5rem;
+  }
+
+  .footer p {
+    font-size: 1rem;
+  }
+}
