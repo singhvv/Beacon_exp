@@ -234,13 +234,20 @@ document.querySelector('.navbar-links').classList.toggle('active');
   <footer className="footer">
   <div className="footer-content">
     <div className="footer-contact">
-      <p><strong></strong> Madhav Tutlani</p>
-      <p><strong>Phone:</strong> +1 (514) 430-2864</p>
+      <p><strong>Montreal, Canada</strong></p>
+      <p>+1 (514) 430-2864</p>
       {/* <p><strong>Email:</strong> info@beaconexport.com</p> */}
     </div>
+    
     <div className="footer-contact">
-      <p><strong></strong> Varun Pratap Singh</p>
-      <p><strong>Phone:</strong> +1 (403) 360-8483</p>
+      <p><strong>Punjab, India</strong></p>
+      <p>+91 79730 27308</p>
+      {/* <p><strong>Email:</strong> info@beaconexport.com</p> */}
+    </div>
+    
+    <div className="footer-contact">
+      <p><strong>Calgary, Canada</strong></p>
+      <p>+1 (403) 360-8483</p>
       {/* <p><strong>Email:</strong> info@beaconexport.com</p> */}
     </div>
   </div>
